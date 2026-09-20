@@ -15,7 +15,7 @@ int main() {
     double z2;  // Результат обчислення 2-го виразу
 
     cout << "a = ";
-    cin >> a;
+    cin >> a; // введення значення a
 
     z1 = (sin(2 * a) + sin(5 * a) - sin(3 * a)) /
          (cos(a) + 1 - 2 * pow(sin(2 * a), 2));
